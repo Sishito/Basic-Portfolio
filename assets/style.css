@@ -46,7 +46,7 @@ header .container {
 }
 
 .name, .nav {
-	/* I hate floats, so I avoid them whenever I can */
+	
 	display: inline-block;
     vertical-align: middle;
     margin: 0;
@@ -139,6 +139,14 @@ img.headshot {
 	padding: 0 1em 1em 0;
 	width: 200px;
 	height: 200px;
+}
+
+
+img.GitHub {
+	float: left;
+	padding: 0 1em 1em 0;
+	width: 100x;
+	height: 100px;
 }
 
 /* Portfolio Page */
